@@ -3,6 +3,8 @@ namespace StudentmanagementSystem.Models
 {
     public class User
     {
+        internal int id;
+
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -11,9 +13,8 @@ namespace StudentmanagementSystem.Models
         public string Password { get; set; }
         public string PasswordHash { get; set; }
 
+        public virtual Role Role { get; set; }
 
-        public User()
-        {
-        }
+      
     }
 }
