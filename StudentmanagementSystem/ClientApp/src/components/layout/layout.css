@@ -1,0 +1,6 @@
+#render_container {
+  vertical-align: top;
+  display: inline-block;
+  border: 2px solid green;
+  margin-left: 20px;
+}
