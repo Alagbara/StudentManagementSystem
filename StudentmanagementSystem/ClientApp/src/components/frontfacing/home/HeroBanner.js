@@ -1,5 +1,5 @@
 import React from 'react';
-import '../home/HeroBanner.css';
+import './HeroBanner.css';
 import classnames from 'classnames';
 
 function HeroBanner() {
