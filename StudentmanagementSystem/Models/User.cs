@@ -3,7 +3,6 @@ namespace StudentmanagementSystem.Models
 {
     public class User
     {
-        internal int id;
 
         public int Id { get; set; }
         public string FirstName { get; set; }

@@ -41,7 +41,7 @@ namespace StudentmanagementSystem.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser([FromRoute] int id, [FromBody] User objUser)
         {
-            if(objUser == null || id != objUser.id)
+            if(objUser == null || id != objUser.Id)
             {
                 return new JsonResult("user not found");
             }
