@@ -1,0 +1,15 @@
+#logout_container {
+  border: 2px solid blue;
+  width: 20%;
+  display: inline-block;
+  height: 400px;
+  margin-left: 10px;
+}
+/* body {
+  padding: 70px;
+} */
+/* .row {
+  height: 90px;
+  width: 396px;
+  background-color: paleturquoise;
+} */
