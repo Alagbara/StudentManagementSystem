@@ -8,8 +8,8 @@ namespace StudentmanagementSystem.Models
     {
         IQueryable<T> FindAll();
         IQueryable<T> FindByCondition(Expression<Func <T, bool>> Expression);
-        void Create(T StudentmanagementSystem);
-        void Update(T StudentmanagementSystem);
-        void Delete(T StudentmanagementSystem);
+        void Create(T components);
+        void Update(T components);
+        void Delete(T components);
     }
 }
