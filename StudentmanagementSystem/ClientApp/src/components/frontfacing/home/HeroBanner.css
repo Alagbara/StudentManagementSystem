@@ -1,0 +1,17 @@
+.hero {
+  background-image: url('../../../images/education_banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100px;
+}
+
+.hero-body {
+  padding-left: 1em;
+}
+
+@media screen and (min-width: 992px) {
+  .miniHero {
+    background-position-y: -150px;
+  }
+}
