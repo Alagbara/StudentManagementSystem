@@ -4,13 +4,13 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Api", "StudentManagementSystem.Api\StudentManagementSystem.Api.csproj", "{E90E6618-9E8D-4463-8B15-9CEC07129686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.Models", "StudentManagementSystem.Models\StudentManagementSystem.Models.csproj", "{5F0F97B6-416C-4B84-B737-6646920D95B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Models", "StudentManagementSystem.Models\StudentManagementSystem.Models.csproj", "{5F0F97B6-416C-4B84-B737-6646920D95B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.DbMigrations", "StudentMangementSystem.DbMigrations\StudentManagementSystem.DbMigrations.csproj", "{ABBF3C5A-A3FD-453F-A0A2-26E989591B44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Logging", "StudentManagementSystem.Logging\StudentManagementSystem.Logging.csproj", "{BE94322D-D8D9-4E26-9182-38B7C40E305F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.Logging", "StudentManagementSystem.Logging\StudentManagementSystem.Logging.csproj", "{BE94322D-D8D9-4E26-9182-38B7C40E305F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Repository", "StudentManagementSystem.Repository\StudentManagementSystem.Repository.csproj", "{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.Repository", "StudentManagementSystem.Repository\StudentManagementSystem.Repository.csproj", "{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.DbMigrations", "StudentManagementSystem.DbMigrations\StudentManagementSystem.DbMigrations.csproj", "{1060F89A-6AA4-4248-9812-E32CBC70E25E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +26,6 @@ Global
 		{5F0F97B6-416C-4B84-B737-6646920D95B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F0F97B6-416C-4B84-B737-6646920D95B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F0F97B6-416C-4B84-B737-6646920D95B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABBF3C5A-A3FD-453F-A0A2-26E989591B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABBF3C5A-A3FD-453F-A0A2-26E989591B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABBF3C5A-A3FD-453F-A0A2-26E989591B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABBF3C5A-A3FD-453F-A0A2-26E989591B44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BE94322D-D8D9-4E26-9182-38B7C40E305F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE94322D-D8D9-4E26-9182-38B7C40E305F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE94322D-D8D9-4E26-9182-38B7C40E305F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,6 +34,10 @@ Global
 		{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1060F89A-6AA4-4248-9812-E32CBC70E25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1060F89A-6AA4-4248-9812-E32CBC70E25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1060F89A-6AA4-4248-9812-E32CBC70E25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1060F89A-6AA4-4248-9812-E32CBC70E25E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\StudentManagementSystem.DbMigrations\StudentManagementSystem.DbMigrations.csproj" />
     <ProjectReference Include="..\StudentManagementSystem.Logging\StudentManagementSystem.Logging.csproj" />
     <ProjectReference Include="..\StudentManagementSystem.Repository\StudentManagementSystem.Repository.csproj" />
   </ItemGroup>

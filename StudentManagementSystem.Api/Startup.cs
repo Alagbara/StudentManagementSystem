@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.EntityFrameworkCore;
@@ -23,7 +22,7 @@ namespace StudentmanagementSystem
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddDbContext<StudentManagementSystemDbContext>(options =>
+            services.AddDbContext<StudentSystemDbContext>(options =>
                         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))    
             );
 

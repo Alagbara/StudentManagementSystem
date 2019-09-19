@@ -6,9 +6,9 @@ using System.Text;
 
 namespace StudentManagementSystem.DbMigrations.DataContext
 {
-    public class StudentManagementSystemDbContext : DbContext
+    public class StudentSystemDbContext : DbContext
     {
-        public StudentManagementSystemDbContext(DbContextOptions<StudentManagementSystemDbContext> options)
+        public StudentSystemDbContext(DbContextOptions<StudentSystemDbContext> options)
             : base(options)
         {
 

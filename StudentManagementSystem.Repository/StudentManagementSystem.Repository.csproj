@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StudentManagementSystem.Models\StudentManagementSystem.Models.csproj" />
-    <ProjectReference Include="..\StudentMangementSystem.DbMigrations\StudentManagementSystem.DbMigrations.csproj" />
   </ItemGroup>
 
   <ItemGroup>
