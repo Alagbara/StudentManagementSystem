@@ -18,7 +18,5 @@ namespace StudentManagementSystem.Models.Entities
         public int PhoneNumber { get; set; }
         public string Password { get; set; }
         public string PasswordHash { get; set; }
-
-        public virtual Role Role { get; set; }
     }
 }

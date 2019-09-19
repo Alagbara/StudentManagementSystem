@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Log
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Repository", "StudentManagementSystem.Repository\StudentManagementSystem.Repository.csproj", "{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.DbMigrations", "StudentManagementSystem.DbMigrations\StudentManagementSystem.DbMigrations.csproj", "{1060F89A-6AA4-4248-9812-E32CBC70E25E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.DbMigrations", "StudentManagementSystem.DbMigrations\StudentManagementSystem.DbMigrations.csproj", "{8E9A0C1B-F33D-4E18-869F-658726C964F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +34,10 @@ Global
 		{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D28C7F23-FF16-42A0-8720-EE7FBBA54EED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1060F89A-6AA4-4248-9812-E32CBC70E25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1060F89A-6AA4-4248-9812-E32CBC70E25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1060F89A-6AA4-4248-9812-E32CBC70E25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1060F89A-6AA4-4248-9812-E32CBC70E25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9A0C1B-F33D-4E18-869F-658726C964F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9A0C1B-F33D-4E18-869F-658726C964F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9A0C1B-F33D-4E18-869F-658726C964F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9A0C1B-F33D-4E18-869F-658726C964F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,8 +13,5 @@ namespace StudentManagementSystem.Models.Entities
         [Key]
         public int Id { get; set; }
         public string RoleType { get; set; }
-
-        [ForeignKey("User")]
-        public virtual User User { get; set; }
     }
 }
